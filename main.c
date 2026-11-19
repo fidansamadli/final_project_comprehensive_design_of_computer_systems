@@ -5,7 +5,7 @@
  * ----------------------------------------------------------------------------
  * Platform : Loongson 1B (LS1B200, LS232, MIPS32 little-endian)
  *            RT-Thread 4.0.2 board support package
- * Console  : UART3, 115200 baud, 8 data bits, no parity, 1 stop bit
+ * Console  : UART5 (board console), 115200 baud, 8 data bits, no parity, 1 stop bit
  * Output   : the eight active-low LEDs of the course LED module
  *
  * The application receives a short text message on the serial port, encodes it
@@ -717,7 +717,7 @@ int main(void)
     install_3th_libraries();
     if (uart_init() != 0)
     {
-        rt_kprintf("UART3 initialization failed\n");
+        rt_kprintf("UART5 initialization failed\n");
         return -1;
     }
     service_tick = now_ms();

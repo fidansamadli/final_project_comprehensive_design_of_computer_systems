@@ -4,7 +4,7 @@
 
 1. Board powered from its 5 V adapter; LED module wired to GPIO 9, 11, 15, 17,
    20, 22, 6, 7; module VCC on 3.3 V and GND on GND.
-2. Serial cable on UART3, terminal at 115200 8N1.
+2. Serial cable on UART5, terminal at 115200 8N1.
 3. `MorseMessenger.exe` built and downloaded to RAM in LoongIDE (Download by
    network off).
 
@@ -12,7 +12,7 @@
 
 | Step | Action | Expected observation |
 |---|---|---|
-| 1 | Reset the board | `MORSE MESSENGER READY` and `TYPE HELP FOR COMMANDS` on the terminal; all LEDs off. |
+| 1 | Start the downloaded program in LoongIDE | `MORSE MESSENGER READY` and `TYPE HELP FOR COMMANDS` on the terminal; all LEDs off. |
 | 2 | Type `HELP` | The command list followed by `EXAMPLE: MSG SOS`. |
 | 3 | Type `MSG SOS` | `SEND 3 CHARS AT 12 WPM`; the LED module flashes three short, three long, three short. |
 | 4 | Wait | `DONE 3 CHARS IN 2700 MS`; LEDs off. |
@@ -38,7 +38,7 @@
 
 ## If the board is unavailable
 
-Run the host tests and show `tests/test-results.txt`, then explain the waveform
-test: it checks every LED edge of `SOS` against the expected times
+Run `tests\run_tests.ps1` and show the passing terminal output, then explain the
+waveform test: it checks every LED edge of `SOS` against the expected times
 (0, 100, 200, 300, 400, 500, 800, 1100, ... 2700 ms). The same `main.c` is used
 for the board build.

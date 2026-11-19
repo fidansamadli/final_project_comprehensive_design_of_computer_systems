@@ -900,7 +900,9 @@ int finsh_system_init(void)
         rt_thread_startup(tid);
     return 0;
 }
+#ifndef MORSE_DIRECT_CONSOLE
 INIT_APP_EXPORT(finsh_system_init);
+#endif /* MORSE_DIRECT_CONSOLE */
 
 #endif /* RT_USING_FINSH */
 

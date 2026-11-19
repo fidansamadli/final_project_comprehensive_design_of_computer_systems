@@ -64,6 +64,10 @@ OUT_ELF=MorseMessenger.exe
 OUT_MAP=MorseMessenger.map
 OUT_BIN=MorseMessenger.bin
 
+CC ?= mips-sde-elf-gcc
+OBJCOPY ?= mips-sde-elf-objcopy
+SIZE ?= mips-sde-elf-size
+
 LINKCMDS=../ld.script
 
 # Add inputs and outputs from these tool invocations to the build variables
@@ -75,11 +79,11 @@ all: $(OUT_ELF)
 $(OUT_ELF): $(STARTO) $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: SDE Lite C Linker'
-	D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe  -mips32 -G0 -EL -msoft-float -nostartfiles -static -T $(LINKCMDS) -o $(OUT_ELF) -e start $(STARTO) $(OBJS) $(USER_OBJS) $(LIBS) 
+	$(CC) -mips32 -G0 -EL -msoft-float -nostartfiles -static -T $(LINKCMDS) -o $(OUT_ELF) -e start $(STARTO) $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Invoking: SDE Lite C Objcopy'
-	D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-objcopy.exe -O binary $(OUT_ELF) $(OUT_BIN)
+	$(OBJCOPY) -O binary $(OUT_ELF) $(OUT_BIN)
 	@echo 'Invoking: SDE Lite C Size'
-	D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-size.exe $(OUT_ELF)
+	$(SIZE) $(OUT_ELF)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

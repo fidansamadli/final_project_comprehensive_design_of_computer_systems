@@ -155,7 +155,7 @@ ResetAndDelay=1
 DelayMilliSeconds=500
 ResetAtStart=1
 ResetAtStop=0
-SetBPAtStart=1
+SetBPAtStart=0
 SetBPAtFunc=main
 InitCommands=
 SourcePaths=
@@ -216,9 +216,7 @@ Folders52=RTT4/src
 Folders53=src
 
 [Debugger]
-Count=2
-breakpoint0=D:\LoongIDE\Final_Project_Morse_Messenger\main.c;1
-breakpoint1=D:\LoongIDE\Final_Project_Morse_Messenger\main.c;715
+Count=0
 
 [Unit1]
 FileName=clock.c

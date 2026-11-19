@@ -9,7 +9,7 @@ gap inside a character 1 unit, between characters 3 units and between words
 7 units. The speed is selected in words per minute (one unit = 1200 / WPM ms).
 
 The application is a single C file that reuses the RT-Thread 4.0.2 board support
-package, the UART3 driver and the active-low GPIO helpers already used in
+package, the UART5 driver and the active-low GPIO helpers already used in
 Experiment 6. No additional hardware is required.
 
 ## Hardware
@@ -20,11 +20,15 @@ Experiment 6. No additional hardware is required.
 | LED module | LED1..LED8 to GPIO 9, 11, 15, 17, 20, 22, 6, 7 |
 | LED module VCC | 3.3 V pin of the expansion header |
 | LED module GND | GND pin of the expansion header |
-| Serial console | UART3, 115200 baud, 8 data bits, no parity, 1 stop bit |
+| Serial console | UART5, 115200 baud, 8 data bits, no parity, 1 stop bit |
 | Debug probe | LxLink EJTAG, RAM download only |
 
 The LEDs are active low: writing 0 to a GPIO pin lights the LED. All eight LEDs
 form one lamp, so a mark is visible across the module.
+
+The Morse parser uses the board console (UART5). The generic RT-Thread FinSH
+shell is disabled so it cannot consume Morse command characters. Keep PuTTY
+on the working console cable at 115200 8N1, with no flow control.
 
 ## Commands
 
@@ -65,17 +69,25 @@ SEND 10 CHARS AT 20 WPM
 
 ## Build
 
-Toolchain: `D:\LoongIDE\mips-2015.05` (SDE Lite GCC 4.9.2), MSYS make at
-`C:\msys\1.0\bin\make.exe`.
+Requirements:
+
+* SDE Lite GCC 4.9.2 for MIPS (`mips-sde-elf-*` tools)
+* GNU Make (the MSYS build supplied with LoongIDE is suitable)
+* Windows PowerShell 5.1 or newer
+
+Set `MIPS_SDE_BIN` to the toolchain's `bin` directory. Set `MAKE_EXE` if
+`make.exe` is not already on `PATH`.
 
 ```
-cd D:\LoongIDE\Final_Project_Morse_Messenger
-./build.ps1
+$env:MIPS_SDE_BIN = 'C:\path\to\mips-2015.05\bin'
+$env:MAKE_EXE = 'C:\path\to\make.exe' # optional when make.exe is on PATH
+.\build.ps1
 ```
 
 The build produces `Build\MorseMessenger.exe` (ELF32 little-endian MIPS,
-O32, soft float, entry 0x80200000) and `Build\MorseMessenger.bin`.
-The LoongIDE project is `MorseMessenger.lxp`.
+O32, soft float, entry `0x80200000`) and `Build\MorseMessenger.bin`. Open
+`MorseMessenger.lxp` for the LoongIDE workflow and select your local SDE Lite
+compiler installation if LoongIDE asks for it.
 
 ## Host tests
 
@@ -93,7 +105,7 @@ during transmission, malformed and overlong input.
 
 ## Running on the board
 
-1. Connect the LED module and the serial cable (UART3) as listed above.
+1. Connect the LED module and the serial cable (UART5) as listed above.
 2. Open `MorseMessenger.lxp` in LoongIDE, confirm that *Download by network* is
    off and *Reset on stop* is disabled.
 3. Build, then `Debug -> Run` to download the image to RAM. No flash operation
@@ -106,21 +118,19 @@ If the debugger cannot connect, the program can also be programmed through the
 board's normal PMON download procedure; do not erase the flash to run this
 demonstration.
 
-## Verification status
+## Verification
 
-* Host tests: PASS (see `tests/test-results.txt`).
-* Target build: PASS (see `Build/build.log`).
-* ELF inspection: PASS (see `Build/verification.json`).
-* Physical board execution: not performed in this workspace. The LxLink EJTAG
-  probe was not enumerated by Windows, so no register or LED observation is
-  claimed.
+Run `tests\run_tests.ps1` for the host test suite. After a target build, run
+`python tools\verify_artifact.py` to validate the ELF architecture, entry point,
+RAM placement and required application symbols. Generated binaries, logs and
+test results are intentionally excluded from version control.
 
 ## Files
 
 ```
 main.c                     application (encoder, timing, parser)
 MorseMessenger.lxp         LoongIDE project
-Build/                     MIPS ELF, raw binary, build log, verification
+Build/                     generated makefiles and local build output
 tests/test_morse.c         host tests
 tests/host_platform.h      host shim
 tests/run_tests.ps1        host test driver

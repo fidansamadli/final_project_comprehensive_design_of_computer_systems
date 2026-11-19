@@ -18,7 +18,10 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BIN = os.path.join(ROOT, "Build")
-TOOLS = r"D:\LoongIDE\mips-2015.05\bin"
+TOOLS = os.environ.get("MIPS_SDE_BIN", "")
+if not TOOLS:
+    print("Set MIPS_SDE_BIN to the SDE Lite bin directory.", file=sys.stderr)
+    sys.exit(2)
 READELF = os.path.join(TOOLS, "mips-sde-elf-readelf.exe")
 NM = os.path.join(TOOLS, "mips-sde-elf-nm.exe")
 ELF = os.path.join(BIN, "MorseMessenger.exe")

@@ -66,6 +66,9 @@
 /* C++ features */
 
 
+/* Morse owns UART5; retain FinSH library symbols without its input thread. */
+#define MORSE_DIRECT_CONSOLE
+
 /* Command shell */
 
 #define RT_USING_FINSH
