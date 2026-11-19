@@ -1,0 +1,570 @@
+Building file: ../RTT4/port/start.S
+Building file: ../main.c
+Building file: ../RTT4/bsp-ls1x/drv_can.c
+Building file: ../RTT4/bsp-ls1x/drv_fb.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/port/start.d" -MT"RTT4/port/start.d" -o "RTT4/port/start.o" "../RTT4/port/start.S"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/bsp-ls1x/drv_can.d" -MT"RTT4/bsp-ls1x/drv_can.d" -o "RTT4/bsp-ls1x/drv_can.o" "../RTT4/bsp-ls1x/drv_can.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/bsp-ls1x/drv_fb.d" -MT"RTT4/bsp-ls1x/drv_fb.d" -o "RTT4/bsp-ls1x/drv_fb.o" "../RTT4/bsp-ls1x/drv_fb.c"
+Finished building: ../RTT4/bsp-ls1x/drv_can.c
+Finished building: ../RTT4/port/start.S
+Finished building: ../RTT4/bsp-ls1x/drv_fb.c
+ 
+ 
+ 
+Building file: ../RTT4/bsp-ls1x/drv_nand.c
+Building file: ../RTT4/bsp-ls1x/drv_pwm.c
+Building file: ../RTT4/bsp-ls1x/drv_uart.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/bsp-ls1x/drv_nand.d" -MT"RTT4/bsp-ls1x/drv_nand.d" -o "RTT4/bsp-ls1x/drv_nand.o" "../RTT4/bsp-ls1x/drv_nand.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/bsp-ls1x/drv_pwm.d" -MT"RTT4/bsp-ls1x/drv_pwm.d" -o "RTT4/bsp-ls1x/drv_pwm.o" "../RTT4/bsp-ls1x/drv_pwm.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/bsp-ls1x/drv_uart.d" -MT"RTT4/bsp-ls1x/drv_uart.d" -o "RTT4/bsp-ls1x/drv_uart.o" "../RTT4/bsp-ls1x/drv_uart.c"
+Finished building: ../main.c
+ 
+Building file: ../RTT4/bsp-ls1x/rt_ls1x_drv_init.c
+Finished building: ../RTT4/bsp-ls1x/drv_nand.c
+Finished building: ../RTT4/bsp-ls1x/drv_pwm.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/bsp-ls1x/rt_ls1x_drv_init.d" -MT"RTT4/bsp-ls1x/rt_ls1x_drv_init.d" -o "RTT4/bsp-ls1x/rt_ls1x_drv_init.o" "../RTT4/bsp-ls1x/rt_ls1x_drv_init.c"
+ 
+ 
+Building file: ../RTT4/bsp-ls1x/i2c/drv_ads1015.c
+Building file: ../RTT4/bsp-ls1x/i2c/drv_mcp4725.c
+Finished building: ../RTT4/bsp-ls1x/drv_uart.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/bsp-ls1x/i2c/drv_ads1015.d" -MT"RTT4/bsp-ls1x/i2c/drv_ads1015.d" -o "RTT4/bsp-ls1x/i2c/drv_ads1015.o" "../RTT4/bsp-ls1x/i2c/drv_ads1015.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/bsp-ls1x/i2c/drv_mcp4725.d" -MT"RTT4/bsp-ls1x/i2c/drv_mcp4725.d" -o "RTT4/bsp-ls1x/i2c/drv_mcp4725.o" "../RTT4/bsp-ls1x/i2c/drv_mcp4725.c"
+ 
+Building file: ../RTT4/bsp-ls1x/i2c/drv_pca9557.c
+Finished building: ../RTT4/bsp-ls1x/rt_ls1x_drv_init.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/bsp-ls1x/i2c/drv_pca9557.d" -MT"RTT4/bsp-ls1x/i2c/drv_pca9557.d" -o "RTT4/bsp-ls1x/i2c/drv_pca9557.o" "../RTT4/bsp-ls1x/i2c/drv_pca9557.c"
+ 
+Building file: ../RTT4/bsp-ls1x/i2c/drv_rx8010.c
+Finished building: ../RTT4/bsp-ls1x/i2c/drv_mcp4725.c
+Finished building: ../RTT4/bsp-ls1x/i2c/drv_ads1015.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/bsp-ls1x/i2c/drv_rx8010.d" -MT"RTT4/bsp-ls1x/i2c/drv_rx8010.d" -o "RTT4/bsp-ls1x/i2c/drv_rx8010.o" "../RTT4/bsp-ls1x/i2c/drv_rx8010.c"
+ 
+ 
+Building file: ../RTT4/bsp-ls1x/spi/drv_w25x40.c
+Building file: ../RTT4/bsp-ls1x/spi/drv_xpt2046.c
+Finished building: ../RTT4/bsp-ls1x/i2c/drv_pca9557.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/bsp-ls1x/spi/drv_w25x40.d" -MT"RTT4/bsp-ls1x/spi/drv_w25x40.d" -o "RTT4/bsp-ls1x/spi/drv_w25x40.o" "../RTT4/bsp-ls1x/spi/drv_w25x40.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/bsp-ls1x/spi/drv_xpt2046.d" -MT"RTT4/bsp-ls1x/spi/drv_xpt2046.d" -o "RTT4/bsp-ls1x/spi/drv_xpt2046.o" "../RTT4/bsp-ls1x/spi/drv_xpt2046.c"
+ 
+Building file: ../RTT4/components/dfs/src/dfs.c
+Finished building: ../RTT4/bsp-ls1x/i2c/drv_rx8010.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/dfs/src/dfs.d" -MT"RTT4/components/dfs/src/dfs.d" -o "RTT4/components/dfs/src/dfs.o" "../RTT4/components/dfs/src/dfs.c"
+ 
+Building file: ../RTT4/components/dfs/src/dfs_file.c
+Finished building: ../RTT4/bsp-ls1x/spi/drv_w25x40.c
+Finished building: ../RTT4/bsp-ls1x/spi/drv_xpt2046.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/dfs/src/dfs_file.d" -MT"RTT4/components/dfs/src/dfs_file.d" -o "RTT4/components/dfs/src/dfs_file.o" "../RTT4/components/dfs/src/dfs_file.c"
+ 
+ 
+Building file: ../RTT4/components/dfs/src/dfs_fs.c
+Building file: ../RTT4/components/dfs/src/dfs_posix.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/dfs/src/dfs_fs.d" -MT"RTT4/components/dfs/src/dfs_fs.d" -o "RTT4/components/dfs/src/dfs_fs.o" "../RTT4/components/dfs/src/dfs_fs.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/dfs/src/dfs_posix.d" -MT"RTT4/components/dfs/src/dfs_posix.d" -o "RTT4/components/dfs/src/dfs_posix.o" "../RTT4/components/dfs/src/dfs_posix.c"
+Finished building: ../RTT4/components/dfs/src/dfs.c
+ 
+Building file: ../RTT4/components/dfs/src/poll.c
+Finished building: ../RTT4/components/dfs/src/dfs_file.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/dfs/src/poll.d" -MT"RTT4/components/dfs/src/poll.d" -o "RTT4/components/dfs/src/poll.o" "../RTT4/components/dfs/src/poll.c"
+ 
+Building file: ../RTT4/components/dfs/src/select.c
+Finished building: ../RTT4/components/dfs/src/dfs_fs.c
+Finished building: ../RTT4/components/dfs/src/dfs_posix.c
+Invoking: SDE Lite C Compiler
+ 
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/dfs/src/select.d" -MT"RTT4/components/dfs/src/select.d" -o "RTT4/components/dfs/src/select.o" "../RTT4/components/dfs/src/select.c"
+ 
+Building file: ../RTT4/components/drivers/src/completion.c
+Building file: ../RTT4/components/drivers/src/dataqueue.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/drivers/src/completion.d" -MT"RTT4/components/drivers/src/completion.d" -o "RTT4/components/drivers/src/completion.o" "../RTT4/components/drivers/src/completion.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/drivers/src/dataqueue.d" -MT"RTT4/components/drivers/src/dataqueue.d" -o "RTT4/components/drivers/src/dataqueue.o" "../RTT4/components/drivers/src/dataqueue.c"
+Finished building: ../RTT4/components/dfs/src/poll.c
+ 
+In file included from ../RTT4/components/dfs/src/select.c:15:0:
+../RTT4/components/dfs/include/dfs_select.h:19:83: warning: 'struct timeval' declared inside parameter list
+ int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *timeout);
+                                                                                   ^
+../RTT4/components/dfs/include/dfs_select.h:19:83: warning: its scope is only this definition or declaration, which is probably not what you want
+Building file: ../RTT4/components/drivers/src/pipe.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/drivers/src/pipe.d" -MT"RTT4/components/drivers/src/pipe.d" -o "RTT4/components/drivers/src/pipe.o" "../RTT4/components/drivers/src/pipe.c"
+Finished building: ../RTT4/components/dfs/src/select.c
+ 
+Finished building: ../RTT4/components/drivers/src/completion.c
+Building file: ../RTT4/components/drivers/src/ringblk_buf.c
+Finished building: ../RTT4/components/drivers/src/dataqueue.c
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/drivers/src/ringblk_buf.d" -MT"RTT4/components/drivers/src/ringblk_buf.d" -o "RTT4/components/drivers/src/ringblk_buf.o" "../RTT4/components/drivers/src/ringblk_buf.c"
+ 
+Building file: ../RTT4/components/drivers/src/ringbuffer.c
+Building file: ../RTT4/components/drivers/src/waitqueue.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/drivers/src/ringbuffer.d" -MT"RTT4/components/drivers/src/ringbuffer.d" -o "RTT4/components/drivers/src/ringbuffer.o" "../RTT4/components/drivers/src/ringbuffer.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/drivers/src/waitqueue.d" -MT"RTT4/components/drivers/src/waitqueue.d" -o "RTT4/components/drivers/src/waitqueue.o" "../RTT4/components/drivers/src/waitqueue.c"
+Finished building: ../RTT4/components/drivers/src/pipe.c
+ 
+Building file: ../RTT4/components/drivers/src/workqueue.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/drivers/src/workqueue.d" -MT"RTT4/components/drivers/src/workqueue.d" -o "RTT4/components/drivers/src/workqueue.o" "../RTT4/components/drivers/src/workqueue.c"
+Finished building: ../RTT4/components/drivers/src/ringblk_buf.c
+Finished building: ../RTT4/components/drivers/src/waitqueue.c
+ 
+Finished building: ../RTT4/components/drivers/src/ringbuffer.c
+ 
+Building file: ../RTT4/components/finsh/cmd.c
+ 
+Building file: ../RTT4/components/finsh/finsh_compiler.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/cmd.d" -MT"RTT4/components/finsh/cmd.d" -o "RTT4/components/finsh/cmd.o" "../RTT4/components/finsh/cmd.c"
+Building file: ../RTT4/components/finsh/finsh_error.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/finsh_compiler.d" -MT"RTT4/components/finsh/finsh_compiler.d" -o "RTT4/components/finsh/finsh_compiler.o" "../RTT4/components/finsh/finsh_compiler.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/finsh_error.d" -MT"RTT4/components/finsh/finsh_error.d" -o "RTT4/components/finsh/finsh_error.o" "../RTT4/components/finsh/finsh_error.c"
+Finished building: ../RTT4/components/drivers/src/workqueue.c
+ 
+Building file: ../RTT4/components/finsh/finsh_heap.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/finsh_heap.d" -MT"RTT4/components/finsh/finsh_heap.d" -o "RTT4/components/finsh/finsh_heap.o" "../RTT4/components/finsh/finsh_heap.c"
+Finished building: ../RTT4/components/finsh/finsh_error.c
+ 
+Building file: ../RTT4/components/finsh/finsh_init.c
+Finished building: ../RTT4/components/finsh/cmd.c
+Finished building: ../RTT4/components/finsh/finsh_compiler.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/finsh_init.d" -MT"RTT4/components/finsh/finsh_init.d" -o "RTT4/components/finsh/finsh_init.o" "../RTT4/components/finsh/finsh_init.c"
+ 
+ 
+Building file: ../RTT4/components/finsh/finsh_node.c
+Building file: ../RTT4/components/finsh/finsh_ops.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/finsh_node.d" -MT"RTT4/components/finsh/finsh_node.d" -o "RTT4/components/finsh/finsh_node.o" "../RTT4/components/finsh/finsh_node.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/finsh_ops.d" -MT"RTT4/components/finsh/finsh_ops.d" -o "RTT4/components/finsh/finsh_ops.o" "../RTT4/components/finsh/finsh_ops.c"
+Finished building: ../RTT4/components/finsh/finsh_heap.c
+ 
+Building file: ../RTT4/components/finsh/finsh_parser.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/finsh_parser.d" -MT"RTT4/components/finsh/finsh_parser.d" -o "RTT4/components/finsh/finsh_parser.o" "../RTT4/components/finsh/finsh_parser.c"
+Finished building: ../RTT4/components/finsh/finsh_init.c
+ 
+Building file: ../RTT4/components/finsh/finsh_token.c
+Finished building: ../RTT4/components/finsh/finsh_node.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/finsh_token.d" -MT"RTT4/components/finsh/finsh_token.d" -o "RTT4/components/finsh/finsh_token.o" "../RTT4/components/finsh/finsh_token.c"
+ 
+Building file: ../RTT4/components/finsh/finsh_var.c
+Finished building: ../RTT4/components/finsh/finsh_ops.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/finsh_var.d" -MT"RTT4/components/finsh/finsh_var.d" -o "RTT4/components/finsh/finsh_var.o" "../RTT4/components/finsh/finsh_var.c"
+ 
+Building file: ../RTT4/components/finsh/finsh_vm.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/finsh_vm.d" -MT"RTT4/components/finsh/finsh_vm.d" -o "RTT4/components/finsh/finsh_vm.o" "../RTT4/components/finsh/finsh_vm.c"
+Finished building: ../RTT4/components/finsh/finsh_parser.c
+ 
+Building file: ../RTT4/components/finsh/msh.c
+Finished building: ../RTT4/components/finsh/finsh_token.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/msh.d" -MT"RTT4/components/finsh/msh.d" -o "RTT4/components/finsh/msh.o" "../RTT4/components/finsh/msh.c"
+ 
+Finished building: ../RTT4/components/finsh/finsh_var.c
+Building file: ../RTT4/components/finsh/msh_file.c
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/msh_file.d" -MT"RTT4/components/finsh/msh_file.d" -o "RTT4/components/finsh/msh_file.o" "../RTT4/components/finsh/msh_file.c"
+Building file: ../RTT4/components/finsh/shell.c
+Finished building: ../RTT4/components/finsh/finsh_vm.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/shell.d" -MT"RTT4/components/finsh/shell.d" -o "RTT4/components/finsh/shell.o" "../RTT4/components/finsh/shell.c"
+ 
+Building file: ../RTT4/components/finsh/symbol.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/finsh/symbol.d" -MT"RTT4/components/finsh/symbol.d" -o "RTT4/components/finsh/symbol.o" "../RTT4/components/finsh/symbol.c"
+Finished building: ../RTT4/components/finsh/msh.c
+ 
+../RTT4/components/finsh/shell.c: In function 'finsh_thread_entry':
+../RTT4/components/finsh/shell.c:551:9: warning: implicit declaration of function 'rt_thread_sleep' [-Wimplicit-function-declaration]
+         rt_thread_sleep(100);           /* ÈÃ³ö CPU Ê±¼ä FIXME 2021.4.15 Bian */
+         ^
+Building file: ../RTT4/components/libc/compilers/newlib/libc.c
+Finished building: ../RTT4/components/finsh/msh_file.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/libc/compilers/newlib/libc.d" -MT"RTT4/components/libc/compilers/newlib/libc.d" -o "RTT4/components/libc/compilers/newlib/libc.o" "../RTT4/components/libc/compilers/newlib/libc.c"
+ 
+Finished building: ../RTT4/components/finsh/symbol.c
+Building file: ../RTT4/components/libc/compilers/newlib/libc_syms.c
+ 
+Finished building: ../RTT4/components/finsh/shell.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/libc/compilers/newlib/libc_syms.d" -MT"RTT4/components/libc/compilers/newlib/libc_syms.d" -o "RTT4/components/libc/compilers/newlib/libc_syms.o" "../RTT4/components/libc/compilers/newlib/libc_syms.c"
+Building file: ../RTT4/components/libc/compilers/newlib/stdio.c
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/libc/compilers/newlib/stdio.d" -MT"RTT4/components/libc/compilers/newlib/stdio.d" -o "RTT4/components/libc/compilers/newlib/stdio.o" "../RTT4/components/libc/compilers/newlib/stdio.c"
+Building file: ../RTT4/components/libc/compilers/newlib/syscalls.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/libc/compilers/newlib/syscalls.d" -MT"RTT4/components/libc/compilers/newlib/syscalls.d" -o "RTT4/components/libc/compilers/newlib/syscalls.o" "../RTT4/components/libc/compilers/newlib/syscalls.c"
+Finished building: ../RTT4/components/libc/compilers/newlib/libc.c
+ 
+Building file: ../RTT4/components/libc/compilers/newlib/time.c
+Finished building: ../RTT4/components/libc/compilers/newlib/libc_syms.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/libc/compilers/newlib/time.d" -MT"RTT4/components/libc/compilers/newlib/time.d" -o "RTT4/components/libc/compilers/newlib/time.o" "../RTT4/components/libc/compilers/newlib/time.c"
+ 
+Finished building: ../RTT4/components/libc/compilers/newlib/stdio.c
+Building file: ../RTT4/components/libc/time/clock_time.c
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/components/libc/time/clock_time.d" -MT"RTT4/components/libc/time/clock_time.d" -o "RTT4/components/libc/time/clock_time.o" "../RTT4/components/libc/time/clock_time.c"
+Building file: ../RTT4/port/bsp_start.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/port/bsp_start.d" -MT"RTT4/port/bsp_start.d" -o "RTT4/port/bsp_start.o" "../RTT4/port/bsp_start.c"
+Finished building: ../RTT4/components/libc/compilers/newlib/syscalls.c
+ 
+Finished building: ../RTT4/components/libc/compilers/newlib/time.c
+Building file: ../RTT4/port/cache.S
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/port/cache.d" -MT"RTT4/port/cache.d" -o "RTT4/port/cache.o" "../RTT4/port/cache.S"
+Building file: ../RTT4/port/context.S
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/port/context.d" -MT"RTT4/port/context.d" -o "RTT4/port/context.o" "../RTT4/port/context.S"
+Finished building: ../RTT4/components/libc/time/clock_time.c
+Finished building: ../RTT4/port/bsp_start.c
+ 
+ 
+Building file: ../RTT4/port/exception.c
+Finished building: ../RTT4/port/cache.S
+Building file: ../RTT4/port/inittlb.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/port/exception.d" -MT"RTT4/port/exception.d" -o "RTT4/port/exception.o" "../RTT4/port/exception.c"
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/port/inittlb.d" -MT"RTT4/port/inittlb.d" -o "RTT4/port/inittlb.o" "../RTT4/port/inittlb.c"
+Finished building: ../RTT4/port/context.S
+Building file: ../RTT4/port/irq.c
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/port/irq.d" -MT"RTT4/port/irq.d" -o "RTT4/port/irq.o" "../RTT4/port/irq.c"
+Building file: ../RTT4/port/irq_s.S
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/port/irq_s.d" -MT"RTT4/port/irq_s.d" -o "RTT4/port/irq_s.o" "../RTT4/port/irq_s.S"
+Finished building: ../RTT4/port/inittlb.c
+ 
+Finished building: ../RTT4/port/exception.c
+Building file: ../RTT4/port/mips_timer.S
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/port/mips_timer.d" -MT"RTT4/port/mips_timer.d" -o "RTT4/port/mips_timer.o" "../RTT4/port/mips_timer.S"
+Finished building: ../RTT4/port/irq_s.S
+Building file: ../RTT4/port/stack.c
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/port/stack.d" -MT"RTT4/port/stack.d" -o "RTT4/port/stack.o" "../RTT4/port/stack.c"
+Finished building: ../RTT4/port/irq.c
+Building file: ../RTT4/port/tick.c
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/port/tick.d" -MT"RTT4/port/tick.d" -o "RTT4/port/tick.o" "../RTT4/port/tick.c"
+Building file: ../RTT4/port/tlb.S
+Finished building: ../RTT4/port/mips_timer.S
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/port/tlb.d" -MT"RTT4/port/tlb.d" -o "RTT4/port/tlb.o" "../RTT4/port/tlb.S"
+ 
+Building file: ../RTT4/src/clock.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/clock.d" -MT"RTT4/src/clock.d" -o "RTT4/src/clock.o" "../RTT4/src/clock.c"
+Finished building: ../RTT4/port/stack.c
+ 
+Finished building: ../RTT4/port/tlb.S
+Building file: ../RTT4/src/components.c
+Finished building: ../RTT4/port/tick.c
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/components.d" -MT"RTT4/src/components.d" -o "RTT4/src/components.o" "../RTT4/src/components.c"
+ 
+Building file: ../RTT4/src/cpu.c
+Building file: ../RTT4/src/device.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/cpu.d" -MT"RTT4/src/cpu.d" -o "RTT4/src/cpu.o" "../RTT4/src/cpu.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/device.d" -MT"RTT4/src/device.d" -o "RTT4/src/device.o" "../RTT4/src/device.c"
+Finished building: ../RTT4/src/clock.c
+ 
+Building file: ../RTT4/src/idle.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/idle.d" -MT"RTT4/src/idle.d" -o "RTT4/src/idle.o" "../RTT4/src/idle.c"
+Finished building: ../RTT4/src/components.c
+Finished building: ../RTT4/src/cpu.c
+ 
+ 
+Building file: ../RTT4/src/ipc.c
+Building file: ../RTT4/src/irq.c
+Invoking: SDE Lite C Compiler
+Finished building: ../RTT4/src/device.c
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/ipc.d" -MT"RTT4/src/ipc.d" -o "RTT4/src/ipc.o" "../RTT4/src/ipc.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/irq.d" -MT"RTT4/src/irq.d" -o "RTT4/src/irq.o" "../RTT4/src/irq.c"
+ 
+Building file: ../RTT4/src/kservice.c
+Finished building: ../RTT4/src/idle.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/kservice.d" -MT"RTT4/src/kservice.d" -o "RTT4/src/kservice.o" "../RTT4/src/kservice.c"
+ 
+Building file: ../RTT4/src/mem.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/mem.d" -MT"RTT4/src/mem.d" -o "RTT4/src/mem.o" "../RTT4/src/mem.c"
+Finished building: ../RTT4/src/irq.c
+ 
+Building file: ../RTT4/src/memheap.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/memheap.d" -MT"RTT4/src/memheap.d" -o "RTT4/src/memheap.o" "../RTT4/src/memheap.c"
+Finished building: ../RTT4/src/ipc.c
+Finished building: ../RTT4/src/kservice.c
+ 
+Finished building: ../RTT4/src/mem.c
+ 
+Building file: ../RTT4/src/mempool.c
+ 
+Building file: ../RTT4/src/object.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/mempool.d" -MT"RTT4/src/mempool.d" -o "RTT4/src/mempool.o" "../RTT4/src/mempool.c"
+Building file: ../RTT4/src/scheduler.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/object.d" -MT"RTT4/src/object.d" -o "RTT4/src/object.o" "../RTT4/src/object.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/scheduler.d" -MT"RTT4/src/scheduler.d" -o "RTT4/src/scheduler.o" "../RTT4/src/scheduler.c"
+Finished building: ../RTT4/src/memheap.c
+ 
+Building file: ../RTT4/src/signal.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/signal.d" -MT"RTT4/src/signal.d" -o "RTT4/src/signal.o" "../RTT4/src/signal.c"
+Finished building: ../RTT4/src/mempool.c
+Finished building: ../RTT4/src/object.c
+ 
+Finished building: ../RTT4/src/scheduler.c
+ 
+Building file: ../RTT4/src/slab.c
+ 
+Building file: ../RTT4/src/thread.c
+Invoking: SDE Lite C Compiler
+Building file: ../RTT4/src/timer.c
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/slab.d" -MT"RTT4/src/slab.d" -o "RTT4/src/slab.o" "../RTT4/src/slab.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/thread.d" -MT"RTT4/src/thread.d" -o "RTT4/src/thread.o" "../RTT4/src/thread.c"
+Finished building: ../RTT4/src/signal.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"RTT4/src/timer.d" -MT"RTT4/src/timer.d" -o "RTT4/src/timer.o" "../RTT4/src/timer.c"
+ 
+Building file: ../ls1x-drv/ls1x_drv_init.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/ls1x_drv_init.d" -MT"ls1x-drv/ls1x_drv_init.d" -o "ls1x-drv/ls1x_drv_init.o" "../ls1x-drv/ls1x_drv_init.c"
+Finished building: ../RTT4/src/slab.c
+ 
+Building file: ../ls1x-drv/ac97/ls1x_ac97.c
+Finished building: ../RTT4/src/thread.c
+Finished building: ../RTT4/src/timer.c
+Finished building: ../ls1x-drv/ls1x_drv_init.c
+Invoking: SDE Lite C Compiler
+ 
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/ac97/ls1x_ac97.d" -MT"ls1x-drv/ac97/ls1x_ac97.d" -o "ls1x-drv/ac97/ls1x_ac97.o" "../ls1x-drv/ac97/ls1x_ac97.c"
+ 
+ 
+Building file: ../ls1x-drv/can/ls1x_can.c
+Building file: ../ls1x-drv/console/console.c
+Building file: ../ls1x-drv/fb/ls1x_fb.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/can/ls1x_can.d" -MT"ls1x-drv/can/ls1x_can.d" -o "ls1x-drv/can/ls1x_can.o" "../ls1x-drv/can/ls1x_can.c"
+Invoking: SDE Lite C Compiler
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/console/console.d" -MT"ls1x-drv/console/console.d" -o "ls1x-drv/console/console.o" "../ls1x-drv/console/console.c"
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/fb/ls1x_fb.d" -MT"ls1x-drv/fb/ls1x_fb.d" -o "ls1x-drv/fb/ls1x_fb.o" "../ls1x-drv/fb/ls1x_fb.c"
+Finished building: ../ls1x-drv/ac97/ls1x_ac97.c
+ 
+Building file: ../ls1x-drv/fb/ls1x_fb_utils.c
+Finished building: ../ls1x-drv/can/ls1x_can.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/fb/ls1x_fb_utils.d" -MT"ls1x-drv/fb/ls1x_fb_utils.d" -o "ls1x-drv/fb/ls1x_fb_utils.o" "../ls1x-drv/fb/ls1x_fb_utils.c"
+ 
+Finished building: ../ls1x-drv/fb/ls1x_fb.c
+Finished building: ../ls1x-drv/console/console.c
+Building file: ../ls1x-drv/fb/font/font_desc.c
+ 
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/fb/font/font_desc.d" -MT"ls1x-drv/fb/font/font_desc.d" -o "ls1x-drv/fb/font/font_desc.o" "../ls1x-drv/fb/font/font_desc.c"
+Building file: ../ls1x-drv/gmac/ls1x_gmac.c
+Building file: ../ls1x-drv/gpio/ls1x_gpio.c
+Invoking: SDE Lite C Compiler
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/gmac/ls1x_gmac.d" -MT"ls1x-drv/gmac/ls1x_gmac.d" -o "ls1x-drv/gmac/ls1x_gmac.o" "../ls1x-drv/gmac/ls1x_gmac.c"
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/gpio/ls1x_gpio.d" -MT"ls1x-drv/gpio/ls1x_gpio.d" -o "ls1x-drv/gpio/ls1x_gpio.o" "../ls1x-drv/gpio/ls1x_gpio.c"
+Finished building: ../ls1x-drv/fb/ls1x_fb_utils.c
+ 
+Building file: ../ls1x-drv/i2c/ls1x_i2c_bus.c
+Finished building: ../ls1x-drv/fb/font/font_desc.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/ls1x_i2c_bus.d" -MT"ls1x-drv/i2c/ls1x_i2c_bus.d" -o "ls1x-drv/i2c/ls1x_i2c_bus.o" "../ls1x-drv/i2c/ls1x_i2c_bus.c"
+ 
+Finished building: ../ls1x-drv/gmac/ls1x_gmac.c
+Building file: ../ls1x-drv/i2c/ads1015/ads1015.c
+ 
+Finished building: ../ls1x-drv/gpio/ls1x_gpio.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/ads1015/ads1015.d" -MT"ls1x-drv/i2c/ads1015/ads1015.d" -o "ls1x-drv/i2c/ads1015/ads1015.o" "../ls1x-drv/i2c/ads1015/ads1015.c"
+Building file: ../ls1x-drv/i2c/gp7101/gp7101.c
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/gp7101/gp7101.d" -MT"ls1x-drv/i2c/gp7101/gp7101.d" -o "ls1x-drv/i2c/gp7101/gp7101.o" "../ls1x-drv/i2c/gp7101/gp7101.c"
+Building file: ../ls1x-drv/i2c/gt1151/gt1151.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/gt1151/gt1151.d" -MT"ls1x-drv/i2c/gt1151/gt1151.d" -o "ls1x-drv/i2c/gt1151/gt1151.o" "../ls1x-drv/i2c/gt1151/gt1151.c"
+Finished building: ../ls1x-drv/i2c/ls1x_i2c_bus.c
+Finished building: ../ls1x-drv/i2c/ads1015/ads1015.c
+ 
+ 
+Finished building: ../ls1x-drv/i2c/gp7101/gp7101.c
+Building file: ../ls1x-drv/i2c/gt1151/touch.c
+Building file: ../ls1x-drv/i2c/mcp4725/mcp4725.c
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/gt1151/touch.d" -MT"ls1x-drv/i2c/gt1151/touch.d" -o "ls1x-drv/i2c/gt1151/touch.o" "../ls1x-drv/i2c/gt1151/touch.c"
+Finished building: ../ls1x-drv/i2c/gt1151/gt1151.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/mcp4725/mcp4725.d" -MT"ls1x-drv/i2c/mcp4725/mcp4725.d" -o "ls1x-drv/i2c/mcp4725/mcp4725.o" "../ls1x-drv/i2c/mcp4725/mcp4725.c"
+Building file: ../ls1x-drv/i2c/pca9557/pca9557.c
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/pca9557/pca9557.d" -MT"ls1x-drv/i2c/pca9557/pca9557.d" -o "ls1x-drv/i2c/pca9557/pca9557.o" "../ls1x-drv/i2c/pca9557/pca9557.c"
+Building file: ../ls1x-drv/i2c/rx8010/rx8010.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/rx8010/rx8010.d" -MT"ls1x-drv/i2c/rx8010/rx8010.d" -o "ls1x-drv/i2c/rx8010/rx8010.o" "../ls1x-drv/i2c/rx8010/rx8010.c"
+Finished building: ../ls1x-drv/i2c/gt1151/touch.c
+Finished building: ../ls1x-drv/i2c/mcp4725/mcp4725.c
+ 
+Finished building: ../ls1x-drv/i2c/pca9557/pca9557.c
+ 
+Building file: ../ls1x-drv/nand/ls1x_nand.c
+ 
+Building file: ../ls1x-drv/pwm/ls1x_pwm.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/nand/ls1x_nand.d" -MT"ls1x-drv/nand/ls1x_nand.d" -o "ls1x-drv/nand/ls1x_nand.o" "../ls1x-drv/nand/ls1x_nand.c"
+Finished building: ../ls1x-drv/i2c/rx8010/rx8010.c
+Building file: ../ls1x-drv/rtc/ls1x_rtc.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/pwm/ls1x_pwm.d" -MT"ls1x-drv/pwm/ls1x_pwm.d" -o "ls1x-drv/pwm/ls1x_pwm.o" "../ls1x-drv/pwm/ls1x_pwm.c"
+ 
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/rtc/ls1x_rtc.d" -MT"ls1x-drv/rtc/ls1x_rtc.d" -o "ls1x-drv/rtc/ls1x_rtc.o" "../ls1x-drv/rtc/ls1x_rtc.c"
+Building file: ../ls1x-drv/spi/ls1x_spi_bus.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/spi/ls1x_spi_bus.d" -MT"ls1x-drv/spi/ls1x_spi_bus.d" -o "ls1x-drv/spi/ls1x_spi_bus.o" "../ls1x-drv/spi/ls1x_spi_bus.c"
+Finished building: ../ls1x-drv/nand/ls1x_nand.c
+Finished building: ../ls1x-drv/pwm/ls1x_pwm.c
+ 
+Finished building: ../ls1x-drv/rtc/ls1x_rtc.c
+ 
+Building file: ../ls1x-drv/spi/w25x40/w25x40.c
+ 
+Building file: ../ls1x-drv/spi/xpt2046/touch_utils.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/spi/w25x40/w25x40.d" -MT"ls1x-drv/spi/w25x40/w25x40.d" -o "ls1x-drv/spi/w25x40/w25x40.o" "../ls1x-drv/spi/w25x40/w25x40.c"
+Building file: ../ls1x-drv/spi/xpt2046/xpt2046.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/spi/xpt2046/touch_utils.d" -MT"ls1x-drv/spi/xpt2046/touch_utils.d" -o "ls1x-drv/spi/xpt2046/touch_utils.o" "../ls1x-drv/spi/xpt2046/touch_utils.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/spi/xpt2046/xpt2046.d" -MT"ls1x-drv/spi/xpt2046/xpt2046.d" -o "ls1x-drv/spi/xpt2046/xpt2046.o" "../ls1x-drv/spi/xpt2046/xpt2046.c"
+Finished building: ../ls1x-drv/spi/ls1x_spi_bus.c
+ 
+Building file: ../ls1x-drv/uart/ns16550.c
+Finished building: ../ls1x-drv/spi/w25x40/w25x40.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/uart/ns16550.d" -MT"ls1x-drv/uart/ns16550.d" -o "ls1x-drv/uart/ns16550.o" "../ls1x-drv/uart/ns16550.c"
+Finished building: ../ls1x-drv/spi/xpt2046/touch_utils.c
+ 
+Finished building: ../ls1x-drv/spi/xpt2046/xpt2046.c
+ 
+Building file: ../ls1x-drv/useful/aligned_malloc.c
+ 
+Building file: ../ls1x-drv/useful/fls.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/useful/aligned_malloc.d" -MT"ls1x-drv/useful/aligned_malloc.d" -o "ls1x-drv/useful/aligned_malloc.o" "../ls1x-drv/useful/aligned_malloc.c"
+Building file: ../ls1x-drv/useful/print_hex.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/useful/fls.d" -MT"ls1x-drv/useful/fls.d" -o "ls1x-drv/useful/fls.o" "../ls1x-drv/useful/fls.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/useful/print_hex.d" -MT"ls1x-drv/useful/print_hex.d" -o "ls1x-drv/useful/print_hex.o" "../ls1x-drv/useful/print_hex.c"
+../ls1x-drv/uart/ns16550.c: In function 'NS16550_set_attributes':
+../ls1x-drv/uart/ns16550.c:371:29: warning: variable 'trash' set but not used [-Wunused-but-set-variable]
+     unsigned char lineCtrl, trash;
+                             ^
+../ls1x-drv/uart/ns16550.c: In function 'NS16550_init':
+../ls1x-drv/uart/ns16550.c:446:19: warning: variable 'trash' set but not used [-Wunused-but-set-variable]
+     unsigned char trash;
+                   ^
+../ls1x-drv/uart/ns16550.c: At top level:
+../ls1x-drv/uart/ns16550.c:315:12: warning: 'NS16550_assert_RTS' defined but not used [-Wunused-function]
+ static int NS16550_assert_RTS(NS16550_t *pUART)
+            ^
+../ls1x-drv/uart/ns16550.c:327:12: warning: 'NS16550_negate_RTS' defined but not used [-Wunused-function]
+ static int NS16550_negate_RTS(NS16550_t *pUART)
+            ^
+Finished building: ../ls1x-drv/useful/fls.c
+Finished building: ../ls1x-drv/useful/aligned_malloc.c
+Finished building: ../ls1x-drv/uart/ns16550.c
+ 
+Finished building: ../ls1x-drv/useful/print_hex.c
+ 
+ 
+Building file: ../ls1x-drv/useful/qsort.c
+ 
+Building file: ../ls1x-drv/watchdog/ls1x_watchdog.c
+Building file: ../src/install_3th_libraries.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/useful/qsort.d" -MT"ls1x-drv/useful/qsort.d" -o "ls1x-drv/useful/qsort.o" "../ls1x-drv/useful/qsort.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/watchdog/ls1x_watchdog.d" -MT"ls1x-drv/watchdog/ls1x_watchdog.d" -o "ls1x-drv/watchdog/ls1x_watchdog.o" "../ls1x-drv/watchdog/ls1x_watchdog.c"
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_RTTHREAD  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../RTT4/include" -I"../RTT4/port/include" -I"../RTT4/port/mips" -I"../RTT4/components/finsh" -I"../RTT4/components/dfs/include" -I"../RTT4/components/drivers/include" -I"../RTT4/components/libc/time" -I"../RTT4/bsp-ls1x" -I"../ls1x-drv/include" -MMD -MP -MF"src/install_3th_libraries.d" -MT"src/install_3th_libraries.d" -o "src/install_3th_libraries.o" "../src/install_3th_libraries.c"
+Finished building: ../ls1x-drv/watchdog/ls1x_watchdog.c
+Finished building: ../src/install_3th_libraries.c
+Finished building: ../ls1x-drv/useful/qsort.c
+ 
+ 
+ 
+Building target: MorseMessenger.exe
+Invoking: SDE Lite C Linker
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe  -mips32 -G0 -EL -msoft-float -nostartfiles -static -T ../ld.script -o MorseMessenger.exe -e start  ./RTT4/port/start.o  ./main.o ./RTT4/bsp-ls1x/drv_can.o ./RTT4/bsp-ls1x/drv_fb.o ./RTT4/bsp-ls1x/drv_nand.o ./RTT4/bsp-ls1x/drv_pwm.o ./RTT4/bsp-ls1x/drv_uart.o ./RTT4/bsp-ls1x/rt_ls1x_drv_init.o ./RTT4/bsp-ls1x/i2c/drv_ads1015.o ./RTT4/bsp-ls1x/i2c/drv_mcp4725.o ./RTT4/bsp-ls1x/i2c/drv_pca9557.o ./RTT4/bsp-ls1x/i2c/drv_rx8010.o ./RTT4/bsp-ls1x/spi/drv_w25x40.o ./RTT4/bsp-ls1x/spi/drv_xpt2046.o ./RTT4/components/dfs/src/dfs.o ./RTT4/components/dfs/src/dfs_file.o ./RTT4/components/dfs/src/dfs_fs.o ./RTT4/components/dfs/src/dfs_posix.o ./RTT4/components/dfs/src/poll.o ./RTT4/components/dfs/src/select.o ./RTT4/components/drivers/src/completion.o ./RTT4/components/drivers/src/dataqueue.o ./RTT4/components/drivers/src/pipe.o ./RTT4/components/drivers/src/ringblk_buf.o ./RTT4/components/drivers/src/ringbuffer.o ./RTT4/components/drivers/src/waitqueue.o ./RTT4/components/drivers/src/workqueue.o ./RTT4/components/finsh/cmd.o ./RTT4/components/finsh/finsh_compiler.o ./RTT4/components/finsh/finsh_error.o ./RTT4/components/finsh/finsh_heap.o ./RTT4/components/finsh/finsh_init.o ./RTT4/components/finsh/finsh_node.o ./RTT4/components/finsh/finsh_ops.o ./RTT4/components/finsh/finsh_parser.o ./RTT4/components/finsh/finsh_token.o ./RTT4/components/finsh/finsh_var.o ./RTT4/components/finsh/finsh_vm.o ./RTT4/components/finsh/msh.o ./RTT4/components/finsh/msh_file.o ./RTT4/components/finsh/shell.o ./RTT4/components/finsh/symbol.o ./RTT4/components/libc/compilers/newlib/libc.o ./RTT4/components/libc/compilers/newlib/libc_syms.o ./RTT4/components/libc/compilers/newlib/stdio.o ./RTT4/components/libc/compilers/newlib/syscalls.o ./RTT4/components/libc/compilers/newlib/time.o ./RTT4/components/libc/time/clock_time.o ./RTT4/port/bsp_start.o ./RTT4/port/cache.o ./RTT4/port/context.o ./RTT4/port/exception.o ./RTT4/port/inittlb.o ./RTT4/port/irq.o ./RTT4/port/irq_s.o ./RTT4/port/mips_timer.o ./RTT4/port/stack.o ./RTT4/port/tick.o ./RTT4/port/tlb.o ./RTT4/src/clock.o ./RTT4/src/components.o ./RTT4/src/cpu.o ./RTT4/src/device.o ./RTT4/src/idle.o ./RTT4/src/ipc.o ./RTT4/src/irq.o ./RTT4/src/kservice.o ./RTT4/src/mem.o ./RTT4/src/memheap.o ./RTT4/src/mempool.o ./RTT4/src/object.o ./RTT4/src/scheduler.o ./RTT4/src/signal.o ./RTT4/src/slab.o ./RTT4/src/thread.o ./RTT4/src/timer.o ./ls1x-drv/ls1x_drv_init.o ./ls1x-drv/ac97/ls1x_ac97.o ./ls1x-drv/can/ls1x_can.o ./ls1x-drv/console/console.o ./ls1x-drv/fb/ls1x_fb.o ./ls1x-drv/fb/ls1x_fb_utils.o ./ls1x-drv/fb/font/font_desc.o ./ls1x-drv/gmac/ls1x_gmac.o ./ls1x-drv/gpio/ls1x_gpio.o ./ls1x-drv/i2c/ls1x_i2c_bus.o ./ls1x-drv/i2c/ads1015/ads1015.o ./ls1x-drv/i2c/gp7101/gp7101.o ./ls1x-drv/i2c/gt1151/gt1151.o ./ls1x-drv/i2c/gt1151/touch.o ./ls1x-drv/i2c/mcp4725/mcp4725.o ./ls1x-drv/i2c/pca9557/pca9557.o ./ls1x-drv/i2c/rx8010/rx8010.o ./ls1x-drv/nand/ls1x_nand.o ./ls1x-drv/pwm/ls1x_pwm.o ./ls1x-drv/rtc/ls1x_rtc.o ./ls1x-drv/spi/ls1x_spi_bus.o ./ls1x-drv/spi/w25x40/w25x40.o ./ls1x-drv/spi/xpt2046/touch_utils.o ./ls1x-drv/spi/xpt2046/xpt2046.o ./ls1x-drv/uart/ns16550.o ./ls1x-drv/useful/aligned_malloc.o ./ls1x-drv/useful/fls.o ./ls1x-drv/useful/print_hex.o ./ls1x-drv/useful/qsort.o ./ls1x-drv/watchdog/ls1x_watchdog.o ./src/install_3th_libraries.o  -lc -lm 
+Invoking: SDE Lite C Objcopy
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-objcopy.exe -O binary MorseMessenger.exe MorseMessenger.bin
+Invoking: SDE Lite C Size
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-size.exe MorseMessenger.exe
+   text	   data	    bss	    dec	    hex	filename
+ 260444	   5064	  25592	 291100	  4711c	MorseMessenger.exe
+Finished building target: MorseMessenger.exe
+ 
